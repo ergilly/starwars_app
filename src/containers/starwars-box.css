@@ -1,3 +1,7 @@
+h1 {
+  color: white;
+}
+
 .center {
   display: flex;
   flex-direction: column;
@@ -9,7 +13,37 @@
 }
 
 .currentpage {
+  width: 100px;
   font-weight: bold;
   font-size: 20px;
-  margin: 0 10px 0 10px
+  margin: 0px 3px 0px 0px;
+  padding: 8px 10px 0 10px;
+  border: 1px solid rgb(204, 204, 204);
+  border-radius: 5px;
+  background-color: rgb(123, 198, 105);
+}
+
+.reset {
+  display: none;
+}
+
+.field {
+  margin-left: 5px !important;
+}
+
+#tab-button {
+  height: 35px;
+  width: 150px;
+  background-color: rgb(123, 198, 105);
+  border: 1px solid rgb(204, 204, 204);
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+#form {
+  width: 30%;
+  padding: 5px;
+}
+#inside-form {
+  margin: 0 !important;
 }

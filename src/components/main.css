@@ -1,7 +1,13 @@
+#padding {
+  margin: 0;
+}
+
 .characters-view {
+  margin: 20px 20px 20px 60px;
   width: 100%;
   display: grid;
   grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-gap: 10px;
   grid-template-rows: auto;
 
 }
